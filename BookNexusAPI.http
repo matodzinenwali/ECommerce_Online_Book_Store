@@ -1,0 +1,6 @@
+@BookNexusAPI_HostAddress = http://localhost:5190
+
+GET {{BookNexusAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
