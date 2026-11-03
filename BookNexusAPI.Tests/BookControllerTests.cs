@@ -1,6 +1,6 @@
 using BookNexusAPI.Controllers;
-using BookNexusAPI.DTOs;
-using BookNexusAPI.Services;
+using BookNexusAPI.DTOs.Books;
+using BookNexusAPI.Services.Books;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;

@@ -1,4 +1,4 @@
-﻿namespace BookNexusAPI.DTOs
+﻿namespace BookNexusAPI.DTOs.Books
 {
     public class BookDto
     {

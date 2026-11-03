@@ -1,9 +1,9 @@
 ﻿using BookNexusAPI.Data;
-using BookNexusAPI.DTOs;
+using BookNexusAPI.DTOs.Books;
 using BookNexusAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BookNexusAPI.Services
+namespace BookNexusAPI.Services.Books
 {
     public class BookService : IBookService
     {

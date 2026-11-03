@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace BookNexusAPI.DTOs
+namespace BookNexusAPI.DTOs.Books
 {
     public class AddBookDto
     {

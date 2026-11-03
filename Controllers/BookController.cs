@@ -1,5 +1,5 @@
-﻿using BookNexusAPI.DTOs;
-using BookNexusAPI.Services;
+﻿using BookNexusAPI.DTOs.Books;
+using BookNexusAPI.Services.Books;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

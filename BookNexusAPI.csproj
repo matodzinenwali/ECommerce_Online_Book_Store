@@ -7,12 +7,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="BookNexusAPI.Tests\BookNexusAPI.Tests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.14" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.14">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="old_API\**" />
+    <EmbeddedResource Remove="old_API\**" />
+    <None Remove="old_API\**" />
+    <Compile Remove="BookNexusAPI.Tests\**" />
+    <EmbeddedResource Remove="BookNexusAPI.Tests\**" />
+    <None Remove="BookNexusAPI.Tests\**" />
   </ItemGroup>
 
 </Project>
