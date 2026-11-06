@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include=".github\workflows\ci.yml" />
     <None Include="BookNexusAPI.Tests\BookNexusAPI.Tests.csproj" />
   </ItemGroup>
 
